@@ -8,6 +8,27 @@
     <title>Library</title>
 </head>
 <body>
-    
+    <div class="library-container">
+        <nav class="navbar">
+            <div class="intro">Click the New Book button to add a new book to your library</div>
+            <div class="new-book-btn">
+                <button>New Book</button>
+            </div>
+        </nav>
+    </div>
+    <div class="form-container">
+        <form action="#" class="new-book-form">
+            <label for="title">Book title:</label>
+            <input type="text" name="title" id="title">
+            <label for="author">Author:</label>
+            <input type="text" name="author" id="author">
+            <label for="pages">Pages:</label>
+            <input type="number" name="pages" id="pages">
+            <label for="read">Read:</label>
+            <input type="checkbox" name="read" id="read">
+            <input type="submit" value="Add Book" class="submit-btn">
+        </form>
+    </div>
+    <div class="library"></div>
 </body>
 </html>
